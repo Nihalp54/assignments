@@ -11,7 +11,7 @@ int main() {
     while (num != 0) {
         remainder = num % 10;
         revnum = revnum * 10 + remainder;
-        num /= 10;
+        num = num/10;
     }
 
     if (orgnum == revnum)
